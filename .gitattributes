@@ -1,0 +1,25 @@
+# Normalize text files
+* text=auto eol=lf
+
+# Source files
+*.c text
+*.cc text
+*.cpp text
+*.cxx text
+*.h text
+*.hh text
+*.hpp text
+*.hxx text
+*.cmake text
+CMakeLists.txt text
+
+# Scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
